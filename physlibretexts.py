@@ -12,7 +12,18 @@ driver = webdriver.Chrome(options=options)
 
 
 def search(query,page):
-    """11 results per page."""
+    
+    """Scrapes the search query page and returns the results in json format.
+    
+    
+    Parameters 
+    ------------
+    query: The query you want to search for.
+    page: The page number for which you want the results.
+        Every page num will return 11 results. 
+          
+          
+    """
     driver.get(f'https://phys.libretexts.org/Special:Search?qid=&fpid=230&fpth=&query={query}&type=wiki')
     clicks = page
     while clicks>1:

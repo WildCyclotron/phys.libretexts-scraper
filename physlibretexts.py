@@ -5,6 +5,9 @@ import time
 
 options = Options()
 options.add_argument("--headless")
+options.add_argument('--ignore-certificate-errors')
+options.add_argument('--ignore-ssl-errors')
+
 
 driver = webdriver.Chrome(options=options)
 

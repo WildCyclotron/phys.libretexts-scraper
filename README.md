@@ -1,5 +1,5 @@
 # phys.libretexts-Scraper
-A scraper for the website phys.libretexts.
+A scraper for the website [phys.libretexts](https://phys.libretexts.org/).
 # Contributing
 This project is under construction. If you want to contribute to this project create a fork and submit a PR. <br /> <br />
 Also feel free to create a new [issue](https://github.com/WildCyclotron/phys.libretexts-scraper/issues) if you found a bug or have a suggestion. 

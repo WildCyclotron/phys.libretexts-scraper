@@ -7,7 +7,7 @@ Also feel free to create a new [issue](https://github.com/WildCyclotron/phys.lib
 * Make sure to get Python 3.7 or higher.
 * Set up venv
 ```
-python3.8 -m venv venv
+python -m venv venv
 ```
 * Clone this repository
 ```

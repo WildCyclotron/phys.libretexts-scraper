@@ -23,7 +23,7 @@ def search(query,page):
     ------------
     query: The query you want to search for.
     page: The page number for which you want the results.
-        Every page num will return 11 results. 
+        Every page returns 11 results. 
           
           
     """
